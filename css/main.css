@@ -128,3 +128,18 @@ figure figcaption {
 	background-color: rgba(0, 0, 0, 0.3);
 	font-weight: 300;
 }
+
+/* Acerca de y contactos */
+#acerca, #contacto {
+	background: rgba(255,148,87,1);
+  background: -moz-linear-gradient(left, rgba(255,148,87,1) 0%, rgba(255,76,66,1) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,148,87,1)), color-stop(100%, rgba(255,76,66,1)));
+  background: -webkit-linear-gradient(left, rgba(255,148,87,1) 0%, rgba(255,76,66,1) 100%);
+  background: -o-linear-gradient(left, rgba(255,148,87,1) 0%, rgba(255,76,66,1) 100%);
+  background: -ms-linear-gradient(left, rgba(255,148,87,1) 0%, rgba(255,76,66,1) 100%);
+  background: linear-gradient(to right, rgba(255,148,87,1) 0%, rgba(255,76,66,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff9457', endColorstr='#ff4c42', GradientType=1 );
+  padding: 3%;
+  padding-bottom: 1.5%;
+	text-align: right;
+}
