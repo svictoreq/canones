@@ -1,7 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
   margin: 0;
-  background-color: #f5f5f5;
+  background-color: #fff9ef;
 }
 
 h2 {
@@ -68,4 +68,30 @@ header {
 	text-align: center;
 	text-transform: uppercase;
 	color: #f5f5f5;
+}
+
+/* Descripcion */
+
+#descripcion {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 4%;
+	margin: 0;
+	height: 300px;
+}
+
+#descripcion h2 {
+	font-size: 3em;
+}
+
+#descripcion p.descripcion-princ {
+	font-size: 1.3em;
+	font-weight: 300;
+}
+
+main > img {
+	width: 100%;
+	height: 100%;
 }
