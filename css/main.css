@@ -130,6 +130,7 @@ figure figcaption {
 }
 
 /* Acerca de y contactos */
+
 #acerca, #contacto {
 	background: rgba(255,148,87,1);
   background: -moz-linear-gradient(left, rgba(255,148,87,1) 0%, rgba(255,76,66,1) 100%);
@@ -142,4 +143,21 @@ figure figcaption {
   padding: 3%;
   padding-bottom: 1.5%;
 	text-align: right;
+}
+
+/* Footer */
+
+footer span {
+	display: inline-block;
+	margin-left: 3%;
+	padding-top: 1.3%;
+}
+
+footer > a img {
+	display: inline-block;
+  position: absolute;
+  right: 0;
+  float: right;
+  width: 50px;
+  height: 50px;
 }
