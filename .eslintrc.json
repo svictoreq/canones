@@ -12,6 +12,8 @@
     "rules": {
         "no-plusplus": "off",
         "linebreak-style": "off",
-        "func-names":"off"
+        "func-names":"off",
+        "indent": ["error", "tab"],
+        "no-tabs": "off"
     }
 }
